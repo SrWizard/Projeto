@@ -1,0 +1,74 @@
+### HTML:
+- Projeto em andamento, finalização na terceira parte da diciplina, data de hoje 29/02/24
+- Wesley Batista
+- Prof; Rosinery Medeiros
+- html, CSS e JS
+- Ser um site de vendas de Manga e Leitura onde o usuario interage com o sistema, faz a compra e também pode reserva compras em seu carrinho; :D
+1. **<!DOCTYPE html>:**
+   - Declara o tipo de documento HTML que está sendo usado.
+
+2. **<html lang="en">:**
+   - Inicia o documento HTML e define a linguagem como inglês (en ou ptbr).
+
+3. **<head>:**
+   - Contém informações sobre o documento que não são visíveis na página.
+     - <meta charset="UTF-8">: Define a codificação de caracteres como UTF-8.
+     - <meta name="viewport" content="width=device-width, initial-scale=1.0">: Configura a escala inicial para dispositivos móveis.
+     - <link rel="stylesheet" href="styles.css">: Vincula o arquivo CSS externo.
+     - <title>Manga Shop</title>: Define o título da página exibido na barra do navegador.
+
+4. **<body>:**
+   - Contém todo o conteúdo visível da página.
+
+5. **<header>:**
+   - Define a seção do cabeçalho que contém o título e a barra de navegação.
+     - <h1>Manga Shop</h1>: Título principal da página.
+     - <nav>: Define a barra de navegação.
+       - <ul>: Lista não ordenada.
+       - <li><a href="#">Home</a></li>: Item da lista que contém um link.
+
+6. **<main>:**
+   - Contém o conteúdo principal da página, incluindo seções de destaque e catálogo.
+     - <section class="highlight">: Seção para mangás em destaque.
+     - <section class="catalog">: Seção para o catálogo de mangás.
+
+7. **<footer>:**
+   - Define a seção do rodapé que geralmente contém informações de direitos autorais.
+     - <p>&copy; 2024 Manga Shop. Todos os direitos reservados.</p>: Informação de direitos autorais.
+
+### CSS (Seletores):
+
+1. ***:**
+   - Seleciona todos os elementos na página.
+     - margin: 0; padding: 0; box-sizing: border-box;: Define margens, preenchimentos e modelo de caixa padrão.
+
+2. **body:**
+   - Seleciona o elemento body.
+     - font-family: Arial, sans-serif;: Define a família de fontes.
+     - background-color: #f0f0f0; color: #333;: Define cores de fundo e texto.
+
+3. **header:**
+   - Seleciona o elemento header.
+     - background-color: #1a1a1a; color: #fff; padding: 1rem; text-align: center;: Define cores, preenchimento e alinhamento.
+
+4. **nav ul:**
+   - Seleciona a lista não ordenada dentro da barra de navegação.
+     - list-style: none;: Remove marcadores da lista.
+
+5. **nav ul li:**
+   - Seleciona os itens da lista na barra de navegação.
+     - display: inline; margin-right: 15px;: Exibe os itens em linha com margem à direita.
+
+6. **nav a:**
+   - Seleciona os links na barra de navegação.
+     - text-decoration: none; color: #fff;: Remove sublinhado dos links e define a cor.
+
+7. **.highlight e .catalog:**
+   - Seleciona elementos com classes .highlight e .catalog.
+     - background-color: #fff; padding: 10px;: Define fundo branco e preenchimento.
+
+8. **footer:**
+   - Seleciona o elemento footer.
+     - background-color: #1a1a1a; color: #fff; text-align: center; padding: 1rem; position: fixed; width: 100%; bottom: 0;: Define cores, alinhamento, preenchimento e fixa na parte inferior.
+
+Essas tags e seletores formam a estrutura e o estilo básicos do "Manga Shop".
